@@ -1,5 +1,6 @@
 import numpy as np
 
+#fibonacci 
 def fibonacci(N):
     if (N == 0 or N == 1):
         return N
@@ -13,6 +14,7 @@ def get_time(N):
     t1 = time.time()-t0
     return t1
 
+#Los 35 numeros para el tiempo 
 N = 0;
 while(N <= 35):
     print N,",",get_time(N)
