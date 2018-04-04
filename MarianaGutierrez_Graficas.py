@@ -19,5 +19,6 @@ b = plt.plot(x2,y2, c = "c")
 
 plt.xlabel("N")
 plt.ylabel("Tiempo")
-plt.legend([a,b] , ["Python","C++"]
+plt.legend([a,b] , ["Python","C++"])
+plt.savefig("cpp_vs_python.png")
 
